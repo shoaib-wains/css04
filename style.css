@@ -1,0 +1,22 @@
+#container{
+    height: 500px;
+    width: 1000px;
+    background-color: lightblue;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+div{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 400px;
+    height: 100px;
+    /* align-items: baseline; */
+    align-items: stretch;
+    row-gap: 70px;
+}
+#yellow{
+    height: 70px;
+    /* margin-top: 20px; */
+    /* align-items: center; */
+}
